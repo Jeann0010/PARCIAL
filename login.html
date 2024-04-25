@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div class="login-container" class="card.image">
+        <img src="avion.jpeg">
+        <span class="card-title">Login</span>
+        <form id="loginForm" onsubmit="return loginUser()">
+            <label for="username">Usuario:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <div class="background-image"></div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
